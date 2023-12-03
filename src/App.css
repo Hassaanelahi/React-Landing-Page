@@ -1,0 +1,33 @@
+:root {
+    --theme-black: #212b36;
+    --theme-orange: #FA541C;
+    --theme-lightBlack: #637381;
+}
+
+
+/* 
+fontFamily: 'Barlow, sans-serif',
+fontFamily: 'Public Sans, sans-serif',
+*/
+
+#navLink a:nth-child(1) {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: var(--theme-black);
+}
+
+#navLink a:nth-child(1)::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #FA541C;
+    border-radius: 50%;
+    position: relative;
+    left: -7px;
+    display: block;
+}
+
+span.MuiTabs-indicator.css-lafep3-MuiTabs-indicator {
+    background-color: #212B36;
+}
